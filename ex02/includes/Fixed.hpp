@@ -46,16 +46,18 @@ class Fixed
     bool operator!=(const Fixed &ref) const;
     bool operator==(const Fixed &ref) const;
 
-
-    Fixed operator++(); // Prexif operator
+    // Pre/Post Fix operator
+    Fixed operator++(); // PreFix operator
     Fixed operator--();
-    Fixed operator++(int); // Postfix operator
+    Fixed operator++(int); // PostFix operator
     Fixed operator--(int);
 
-    static int& min(int &fp_num0,int &fp_num1);
-    static int& min(const int &fp_num0,const int &fp_num1);
-    static int& max(int &fp_num0,int &fp_num1);
-    static int& max(const int &fp_num0,const int &fp_num1);
+    // Min/Max methods.
+
+    static Fixed& min(Fixed &a,Fixed &b);
+    static Fixed& max(Fixed &a, Fixed &b);
+    const static Fixed& min(const Fixed &a,const Fixed &b);
+    const static Fixed& max(const Fixed &a,const Fixed &b);
 };
 
 

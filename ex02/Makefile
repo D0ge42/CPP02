@@ -6,7 +6,15 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98 -Iincludes -g
 SRC_DIR = srcs
 OBJ_DIR = objs
 
-SRC = srcs/main.cpp srcs/Fixed.cpp
+SRC = srcs/main.cpp \
+			srcs/Fixed.cpp\
+			srcs/FixedConversion.cpp\
+			srcs/FixedMath.cpp\
+			srcs/FixedOperators.cpp\
+			srcs/FixedComparison.cpp\
+			srcs/FixedMaxMin.cpp\
+			srcs/FixedPrePost.cpp
+
 
 OBJ = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
@@ -15,7 +23,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^ 
+	$(CC) $(CFLAGS) -o $@ $^
 
 %.o:%.c
 	$(CC) $(SRC) $(CFLAGS)

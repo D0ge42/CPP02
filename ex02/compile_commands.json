@@ -32,5 +32,141 @@
    "objs/Fixed.o"
   ],
   "file": "srcs/Fixed.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "srcs/main.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/Fixed.cpp",
+   "-o",
+   "objs/Fixed.o"
+  ],
+  "file": "srcs/Fixed.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedConversion.cpp",
+   "-o",
+   "objs/FixedConversion.o"
+  ],
+  "file": "srcs/FixedConversion.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedMath.cpp",
+   "-o",
+   "objs/FixedMath.o"
+  ],
+  "file": "srcs/FixedMath.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedOperators.cpp",
+   "-o",
+   "objs/FixedOperators.o"
+  ],
+  "file": "srcs/FixedOperators.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedComparison.cpp",
+   "-o",
+   "objs/FixedComparison.o"
+  ],
+  "file": "srcs/FixedComparison.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedPrePost.cpp",
+   "-o",
+   "objs/FixedPrePost.o"
+  ],
+  "file": "srcs/FixedPrePost.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedMaxMin.cpp",
+   "-o",
+   "objs/FixedMaxMin.o"
+  ],
+  "file": "srcs/FixedMaxMin.cpp"
  }
 ]
