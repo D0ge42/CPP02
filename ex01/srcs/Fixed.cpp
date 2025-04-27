@@ -60,7 +60,6 @@ Fixed::Fixed(const int num)
   std::cout << "Int constructor called" << std::endl;
   // this->_fpValue = num * pow(2,_fract_bits);
   this->_fpValue = num << this->_fract_bits;
-
 }
 
 /*To convert from floating-point to fixed-point, we follow this algorithm:
