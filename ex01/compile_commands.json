@@ -1,0 +1,36 @@
+[
+ {
+  "directory": "/home/doge/CPP02/ex01",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "srcs/main.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex01",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/Fixed.cpp",
+   "-o",
+   "objs/Fixed.o"
+  ],
+  "file": "srcs/Fixed.cpp"
+ }
+]
