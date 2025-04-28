@@ -1,0 +1,325 @@
+[
+ {
+  "directory": "/home/doge/CPP02/ex01",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "srcs/main.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex01",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/Fixed.cpp",
+   "-o",
+   "objs/Fixed.o"
+  ],
+  "file": "srcs/Fixed.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "srcs/main.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/Fixed.cpp",
+   "-o",
+   "objs/Fixed.o"
+  ],
+  "file": "srcs/Fixed.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedConversion.cpp",
+   "-o",
+   "objs/FixedConversion.o"
+  ],
+  "file": "srcs/FixedConversion.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedMath.cpp",
+   "-o",
+   "objs/FixedMath.o"
+  ],
+  "file": "srcs/FixedMath.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedOperators.cpp",
+   "-o",
+   "objs/FixedOperators.o"
+  ],
+  "file": "srcs/FixedOperators.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedComparison.cpp",
+   "-o",
+   "objs/FixedComparison.o"
+  ],
+  "file": "srcs/FixedComparison.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedPrePost.cpp",
+   "-o",
+   "objs/FixedPrePost.o"
+  ],
+  "file": "srcs/FixedPrePost.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex02",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/FixedMaxMin.cpp",
+   "-o",
+   "objs/FixedMaxMin.o"
+  ],
+  "file": "srcs/FixedMaxMin.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/Fixed.cpp",
+   "-o",
+   "objs/fixed/Fixed.o"
+  ],
+  "file": "srcs/fixed/Fixed.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedConversion.cpp",
+   "-o",
+   "objs/fixed/FixedConversion.o"
+  ],
+  "file": "srcs/fixed/FixedConversion.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedMath.cpp",
+   "-o",
+   "objs/fixed/FixedMath.o"
+  ],
+  "file": "srcs/fixed/FixedMath.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedOperators.cpp",
+   "-o",
+   "objs/fixed/FixedOperators.o"
+  ],
+  "file": "srcs/fixed/FixedOperators.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedComparison.cpp",
+   "-o",
+   "objs/fixed/FixedComparison.o"
+  ],
+  "file": "srcs/fixed/FixedComparison.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedMaxMin.cpp",
+   "-o",
+   "objs/fixed/FixedMaxMin.o"
+  ],
+  "file": "srcs/fixed/FixedMaxMin.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/fixed/FixedPrePost.cpp",
+   "-o",
+   "objs/fixed/FixedPrePost.o"
+  ],
+  "file": "srcs/fixed/FixedPrePost.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/bsp.cpp",
+   "-o",
+   "objs/bsp.o"
+  ],
+  "file": "srcs/bsp.cpp"
+ },
+ {
+  "directory": "/home/doge/CPP02/ex03",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-std=c++98",
+   "-Iincludes",
+   "-g",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   "objs/main.o"
+  ],
+  "file": "srcs/main.cpp"
+ }
+]
