@@ -13,8 +13,9 @@ SRC = srcs/fixed/Fixed.cpp\
 			srcs/fixed/FixedComparison.cpp\
 			srcs/fixed/FixedMaxMin.cpp\
 			srcs/fixed/FixedPrePost.cpp\
+			srcs/point/Point.cpp\
 			srcs/bsp.cpp\
-			srcs/main.cpp\
+			srcs/main.cpp
 
 
 OBJ = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)

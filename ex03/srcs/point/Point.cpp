@@ -13,12 +13,12 @@ Point::Point(const float num1, const float num2):_x(num1),_y(num2)
 Point::~Point()
 {}
 
-Point Point::getX(void)
+const Fixed &Point::getX(void) const
 {
   return this->_x;
 }
 
-Point Point::getY(void)
+const Fixed &Point::getY(void) const
 {
   return this->_y;
 }
