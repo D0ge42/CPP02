@@ -10,7 +10,6 @@ Fixed &Fixed::min(Fixed &a, Fixed &b)
 
 Fixed &Fixed::max(Fixed &a, Fixed &b)
 {
-
   if (a._fpValue < b._fpValue)
     return b;
   return a;

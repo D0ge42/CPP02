@@ -23,6 +23,9 @@ Fixed::Fixed(Fixed const &ref)
 	*this = ref;
 }
 
+/* Left shifting a number is equal to
+ * _fpValue = num *  (2 to the power of 8) */
+
 Fixed::Fixed(const int num)
 {
   // std::cout << "Int constructor called" << std::endl;
@@ -33,7 +36,9 @@ Fixed::Fixed(const int num)
 /*To convert from floating-point to fixed-point, we follow this algorithm:
 
 1) Calculate x = floating_input * 2^(fractional_bits)
-2) Round x to the nearest whole number (e.g. round(x))
+2) Round x to the nearest whole number.
+2.1) Halfways cases are thrown away from 0.
+3) Shift left 1 by << 8 and multiply it by num. --> num * 256.
 3) Store the rounded x in an integer container */
 
 Fixed::Fixed(const float num)

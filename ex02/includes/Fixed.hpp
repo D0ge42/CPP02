@@ -4,6 +4,18 @@
 #include <cstdio>
 #include <iostream>
 
+/* Fixed point are a way to represent fractional numbers
+ * in computers, where the position of the decimal part
+ * is Fixed.
+ * A certain amount of bits are always reserved for the integer
+ * part and the other for the decimal.
+ * Unlike floating point numbers, which can vary in precision
+ * and introduce rounding errors, fixed points number mantain
+ * a consistent level of precision.
+ * An example could be the way money are represented.
+ * Usually there are always two numbers after the decimal point
+ * 42.42$ */
+
 class Fixed
 {
 	private:
@@ -28,9 +40,6 @@ class Fixed
     // Conversion methods
     float toFloat(void)const;
 		int toInt(void)const;
-
-    // Overload operator (a friend class can access private/protected member of other classes)
-    friend std::ostream& operator<<(std::ostream &out, const Fixed &ref);
 
     // Arithmetic operators
     float operator+(Fixed ref) const;
@@ -59,6 +68,8 @@ class Fixed
     const static Fixed& min(const Fixed &a,const Fixed &b);
     const static Fixed& max(const Fixed &a,const Fixed &b);
 };
+
+std::ostream& operator<<(std::ostream &out, const Fixed &ref);
 
 
 #endif // !__FIXED_HPP__
